@@ -7,10 +7,11 @@
 	<title>Practica 1</title>
 </head>
   <body>
-     <?php eco '<p>Hello World</p>'; 
+     <?php echo '<p>Hello World</p>'; ?> 
     <div> Suma de todos los numeros del 1 al 10: 
+    <?php
     $sum = 0;
-    for=10; $i++) {
+    for($i = 1; $i<=10; $i++) {
       $sum = $sum + $i;
     }
     echo $sum;    
